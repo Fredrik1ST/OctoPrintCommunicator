@@ -1,5 +1,5 @@
 # OPC: OctoPrint Communicator
-For establishing basic communication between Octoprint-connected 3D printers and various equipment.
+A middleware for establishing basic communication between Octoprint-connected 3D printers and various equipment.
 For those simply looking for a python-based Octoprint client, there are probably better alternatives out there.
 
 ### Main idea
@@ -9,6 +9,6 @@ When initialized, a CSV containing Octopi instances and API keys are parsed and 
 These clients then read and store the status of each printer, saving them to a suitable file format to be read by the IPC.
 
 ### Down the line
-Current plans are to include the ability to request a print job from other equipment.
+I will probably not develop this any further in its current state.
 
 *Copyright © 2020 Fredrik Siem Taklo. MIT License.*
